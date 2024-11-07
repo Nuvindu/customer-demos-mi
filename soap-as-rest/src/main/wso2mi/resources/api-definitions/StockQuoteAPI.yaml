@@ -17,3 +17,18 @@ paths:
       responses:
         default:
           description: Default response
+  /order/*:
+    post:
+      requestBody:
+        description: Sample Payload
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                payload:
+                  type: object
+        required: false
+      responses:
+        default:
+          description: Default response
