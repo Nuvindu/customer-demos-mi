@@ -3,11 +3,11 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.microintegrator.projects</groupId>
-  <artifactId>secure_rest_service</artifactId>
+  <artifactId>soap_as_rest</artifactId>
   <version>1.0.0</version>
   <packaging>pom</packaging>
-  <name>secure_rest_service</name>
-  <description>SecureRestService</description>
+  <name>soap_as_rest</name>
+  <description>SoapAsRestService</description>
   <repositories>
     <repository>
         <id>wso2-nexus</id>
@@ -362,7 +362,7 @@
   </build>
   <properties>
     <projectType>integration-project</projectType>
-    <uuid>adfbf4a6-2abc-49c7-93a5-92941a053fe7</uuid>
+    <uuid>6d4a29e5-e074-452c-92fc-978d6792633f</uuid>
     <!-- <archiveLocation>configure a custom target directory for CAPP</archiveLocation> -->
     <keystore.type>JKS</keystore.type>
     <keystore.name>wso2carbon.jks</keystore.name>

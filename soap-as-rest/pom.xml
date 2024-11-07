@@ -3,10 +3,10 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.microintegrator.projects</groupId>
-  <artifactId>SoapAsRestService</artifactId>
+  <artifactId>soap_as_rest</artifactId>
   <version>1.0.0</version>
   <packaging>pom</packaging>
-  <name>SoapAsRestService</name>
+  <name>soap_as_rest</name>
   <description>SoapAsRestService</description>
   <repositories>
     <repository>

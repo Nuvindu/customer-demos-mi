@@ -4,21 +4,7 @@ hot_deployment = false
 # offset  = 10
 
 [user_store]
-class = "org.wso2.micro.integrator.security.user.core.jdbc.JDBCUserStoreManager"
-type = "database"
-
-[[datasource]]
-id = "WSO2CarbonDB"
-url= "jdbc:mysql://host.docker.internal:3306/userdb"
-username="root"
-password="password"
-driver="com.mysql.jdbc.Driver"
-pool_options.maxActive=50
-pool_options.maxWait = 60000
-pool_options.testOnBorrow = true
-
-[internal_apis.file_user_store]
-enable = false
+type = "read_only_ldap"
 
 [keystore.primary]
 file_name = "repository/resources/security/wso2carbon.jks"
