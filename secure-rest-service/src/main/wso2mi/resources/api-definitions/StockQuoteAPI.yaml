@@ -1,0 +1,19 @@
+openapi: 3.0.1
+info:
+  title: StockQuoteAPI
+  description: API Definition of StockQuoteAPI
+  version: 1.0.0
+servers:
+- url: http://localhost:8290/stockquote
+paths:
+  /view/{symbol}:
+    get:
+      parameters:
+      - name: symbol
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        default:
+          description: Default response
