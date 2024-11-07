@@ -165,4 +165,14 @@ Refer to the [WSO2 MI Kubernetes setup guide](https://mi.docs.wso2.com/en/latest
 
 ## Additional Resources
 
-For additional details on deploying WSO2 Micro Integrator on Kubernetes, consult the [official WSO2 documentation](https://mi.docs.wso2.com/en/latest/).
+For further reading and detailed examples on configuring, deploying, and securing REST APIs with WSO2 Micro Integrator, check out the following resources.
+
+- [Enabling REST to SOAP](https://mi.docs.wso2.com/en/latest/learn/examples/rest-api-examples/enabling-rest-to-soap/)
+- [Securing REST APIs](https://mi.docs.wso2.com/en/latest/learn/examples/rest-api-examples/securing-rest-apis/)
+- [Setting up a User Store in MI](https://mi.docs.wso2.com/en/latest/install-and-setup/setup/user-stores/setting-up-a-userstore-in-mi/)
+- [Applying Security to an API](https://mi.docs.wso2.com/en/latest/develop/advanced-development/applying-security-to-an-api/)
+- [Deploying Artifacts in WSO2 Micro Integrator](https://mi.docs.wso2.com/en/latest/develop/deploy-artifacts)
+- [Docker Sample](https://mi.docs.wso2.com/en/latest/learn/samples/docker-sample/)
+- [Deploying Micro Integrator with Helm](https://mi.docs.wso2.com/en/latest/install-and-setup/setup/deployment/deploying-micro-integrator-with-helm/)
+
+For more details on deploying WSO2 Micro Integrator on Kubernetes, consult the [official WSO2 documentation](https://mi.docs.wso2.com/en/latest/).
